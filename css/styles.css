@@ -40,12 +40,13 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* Suppression du bloc du logo et ajustement du menu principal */
+/* Suppression du bloc du logo */
 .main-logo {
     display: none;
 }
 
-.navbar {
+/* Alignement du menu principal */
+.main-menu {
     background-color: #000; /* Couleur ajustée */
     display: flex;
     justify-content: center;
