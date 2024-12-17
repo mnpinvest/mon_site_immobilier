@@ -11,29 +11,35 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', serif;
 }
 
+/* Barre de navigation supérieure */
 .top-nav {
-    background-color: #2c3e50;
+    background-color: #333; /* Couleur de la bannière/bandeau */
     padding: 10px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.top-nav a {
+.top-nav .left-nav,
+.top-nav .right-nav {
+    display: flex;
+}
+
+.top-nav .left-nav a,
+.top-nav .right-nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
-.top-nav a:hover {
+.top-nav .left-nav a:hover,
+.top-nav .right-nav a:hover {
     text-decoration: underline;
 }
 
-.logo-in {
-    width: 30px;
-    vertical-align: middle;
-}
-
+/* Logo */
 .main-logo {
     text-align: center;
     margin: 20px 0;
@@ -43,19 +49,19 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
 }
 
+/* Barre de navigation principale */
 .navbar {
-    background-color: #fff;
-    border-bottom: 2px solid #ddd;
+    background-color: #000; /* Couleur de la barre de navigation principale */
     display: flex;
-    justify-content: center; /* Centre le contenu de la barre de navigation */
-    align-items: center;
-    padding: 10px 20px;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
 }
 
 .navbar-nav {
     display: flex;
     justify-content: center;
-    flex-grow: 1;
+    align-items: center;
 }
 
 .navbar-nav .nav-item {
