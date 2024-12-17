@@ -30,14 +30,21 @@ h1, h2, h3, h4, h5, h6 {
 .top-nav .right-nav a {
     color: #fff; /* Couleur des caractères */
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
     font-weight: bold;
-    font-size: 1em; /* Taille des caractères */
+    font-size: 0.9em; /* Taille des caractères */
 }
 
 .top-nav .left-nav a:hover,
 .top-nav .right-nav a:hover {
     text-decoration: underline;
+}
+
+.top-nav .right-nav #espace-partenaire { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
 }
 
 /* Suppression du bloc du logo */
@@ -89,69 +96,4 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu {
     background-color: #fff;
     border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute un effet d'ombre pour le contraste */
-}
-
-.dropdown-item {
-    color: #2c3e50;
-    padding: 10px 20px; /* Espacement des sous-catégories */
-}
-
-.dropdown-item:hover {
-    background-color: #007bff;
-    color: #fff;
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: auto;
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.slogan {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #ffffff;
-    margin-top: 10px;
-}
-
-/* Ajustements spécifiques pour l'onglet "Espace Partenaire" */
-.right-nav a[href='#espace-partenaire'] {
-    background-color: #007bff; /* Fond de couleur spécifique */
-    color: #fff; /* Couleur des caractères spécifique */
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-/* Ajustements supplémentaires basés sur vos observations */
-.light-preset-color .menu-text {
-    color: #fff;
-}
-
-.light-preset-color .mini-widgets > *, 
-.light-preset-color .mini-nav > ul > li > a *,
-.light-preset-color .mobile-mini-widgets .mini-nav > ul > li > a *,
-.light-preset-color .mini-widgets .text-area a,
-.light-preset-color .mini-nav > ul > li > a:hover, 
-.light-preset-color .mini-search .submit, 
-.light-preset-color .mini-search .searchform > .search-icon i, 
-.light-preset-color .mini-login .submit, 
-.light-preset-color .mini-login .submit i {
-    color: #fff; /* Couleur des caractères */
-}
-
-@media screen and (max-width: 940px) {
-    .top-bar .text-area span {
-        font-size: 14px !important;
-    }
-}
-
-.top-bar * {
-    font-size: inherit;
-    line-height: inherit;
-}
+    box-shadow
