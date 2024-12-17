@@ -46,19 +46,20 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
     background-color: #fff;
     border-bottom: 2px solid #ddd;
-    display: flex;
+    display: flex; /* Utilisation de flex pour alignement */
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
 
 .navbar-nav {
-    display: flex;
+    display: flex; /* Alignement en flex */
     justify-content: center;
-    flex-grow: 1;
+    align-items: center;
 }
 
 .navbar-nav .nav-item {
-    margin: 0 10px;
+    margin: 0 20px; /* Espacement uniforme */
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -66,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     padding: 10px 15px;
     position: relative;
+    font-size: 1.2em; /* Taille du texte des onglets */
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -78,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #fff; /* Trait blanc fin au survol */
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -87,26 +89,17 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu {
     background-color: #fff;
     border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Contraste pour le menu déroulant */
 }
 
 .dropdown-item {
     color: #2c3e50;
+    padding: 10px 20px; /* Espacement des sous-catégories */
 }
 
 .dropdown-item:hover {
     background-color: #007bff;
     color: #fff;
-}
-
-.dropdown-menu .dropdown-item:hover::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    bottom: -2px;
-    left: 0;
 }
 
 .carousel-inner img {
