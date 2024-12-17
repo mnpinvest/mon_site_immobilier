@@ -263,3 +263,53 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Styles pour la section Espace Partenaires */
 .top-nav .mini-nav > ul:not(.mini-sub-nav) > li > a.partner
+
+/* Styles pour le deuxième bandeau */
+.second-menu {
+    background-color: #333; /* Couleur ajustée */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Centrer les éléments du menu */
+    align-items: center;
+    border: none; /* Supprimer les bordures si nécessaire */
+}
+
+.second-menu .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-menu .nav-item {
+    margin: 0 15px; /* Espacement uniforme entre les onglets */
+}
+
+.second-menu .nav-link {
+    color: #fff; /* Couleur blanche pour les onglets */
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    font-size: 1em; /* Taille des caractères */
+    text-transform: uppercase; /* Texte en majuscules */
+}
+
+.second-menu .nav-link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.second-menu .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.second-menu .dropdown-item {
+    color: #333;
+    padding: 10px 15px;
+}
+
+.second-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
