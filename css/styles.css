@@ -269,17 +269,18 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center; /* Centrer les éléments du menu */
     align-items: center;
     border: none; /* Supprimer les bordures si nécessaire */
-    position: relative; /* Assurer que le deuxième bandeau englobe les onglets */
+    position: auto; /* Ajuster la hauteur automatiquement */
 }
 
 .second-menu .navbar-nav {
     display: flex;
     justify-content: space-between; /* Espacer les éléments du menu */
     align-items: center;
-    width: 100%; /* Assurer que les éléments occupent toute la largeur disponible */
+    width: auto; /* Ajuster la largeur automatiquement */
     list-style: none; /* Enlever les puces de la liste */
     margin: 0;
     padding: 0;
+    flex-wrap: nowrap; /* Empêche les éléments de se replier sur plusieurs lignes */
 }
 
 .second-menu .nav-item {
