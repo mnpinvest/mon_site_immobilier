@@ -46,28 +46,28 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
     background-color: #fff;
     border-bottom: 2px solid #ddd;
-    display: flex; /* Utilisation de flex pour alignement */
-    justify-content: space-between;
+    display: flex;
+    justify-content: center; /* Centre le contenu de la barre de navigation */
     align-items: center;
     padding: 10px 20px;
 }
 
 .navbar-nav {
-    display: flex; /* Alignement en flex */
+    display: flex;
     justify-content: center;
-    align-items: center;
+    flex-grow: 1;
 }
 
 .navbar-nav .nav-item {
-    margin: 0 20px; /* Espacement uniforme */
+    margin: 0 20px; /* Espacement uniforme entre les onglets */
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #2c3e50;
+    color: #fff; /* Couleur blanche pour les onglets */
     font-weight: bold;
     padding: 10px 15px;
     position: relative;
-    font-size: 1.2em; /* Taille du texte des onglets */
+    font-size: 1.2em;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #fff; /* Trait blanc fin au survol */
+    background-color: #fff; /* Trait fin blanc au survol */
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu {
     background-color: #fff;
     border: 1px solid #ddd;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Contraste pour le menu déroulant */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute un effet d'ombre pour le contraste */
 }
 
 .dropdown-item {
