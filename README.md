@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mon Site Immobilier
 
 ## Description
@@ -38,3 +39,6 @@ mon_site_immobilier/
 ├── user-profile.php
 ├── .htaccess
 └── README.md
+=======
+# mon_site_immobilier
+>>>>>>> 0f74cef44bb565af3da542ef2eec73945cd005b2
