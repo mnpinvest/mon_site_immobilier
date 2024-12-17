@@ -13,8 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Barre de navigation supérieure */
 .top-nav {
-    background-color: #333; /* Couleur de la bannière/bandeau */
-    padding: 10px 0;
+    background-color: #444; /* Couleur ajustée */
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,15 +23,16 @@ h1, h2, h3, h4, h5, h6 {
 .top-nav .left-nav,
 .top-nav .right-nav {
     display: flex;
+    align-items: center;
 }
 
 .top-nav .left-nav a,
 .top-nav .right-nav a {
-    color: #fff;
+    color: #fff; /* Couleur des caractères */
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1em; /* Taille des caractères */
 }
 
 .top-nav .left-nav a:hover,
@@ -51,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Barre de navigation principale */
 .navbar {
-    background-color: #000; /* Couleur de la barre de navigation principale */
+    background-color: #000; /* Couleur ajustée */
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -73,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     padding: 10px 15px;
     position: relative;
-    font-size: 1.2em;
+    font-size: 1.2em; /* Taille des caractères */
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -124,4 +125,40 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     color: #ffffff;
     margin-top: 10px;
+}
+
+/* Ajustements spécifiques pour l'onglet "Espace Partenaire" */
+.right-nav a[href='#espace-partenaire'] {
+    background-color: #007bff; /* Fond de couleur spécifique */
+    color: #fff; /* Couleur des caractères spécifique */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Ajustements supplémentaires basés sur vos observations */
+.light-preset-color .menu-text {
+    color: #fff;
+}
+
+.light-preset-color .mini-widgets > *, 
+.light-preset-color .mini-nav > ul > li > a *,
+.light-preset-color .mobile-mini-widgets .mini-nav > ul > li > a *,
+.light-preset-color .mini-widgets .text-area a,
+.light-preset-color .mini-nav > ul > li > a:hover, 
+.light-preset-color .mini-search .submit, 
+.light-preset-color .mini-search .searchform > .search-icon i, 
+.light-preset-color .mini-login .submit, 
+.light-preset-color .mini-login .submit i {
+    color: #fff; /* Couleur des caractères */
+}
+
+@media screen and (max-width: 940px) {
+    .top-bar .text-area span {
+        font-size: 14px !important;
+    }
+}
+
+.top-bar * {
+    font-size: inherit;
+    line-height: inherit;
 }
