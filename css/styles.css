@@ -268,14 +268,17 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center; /* Centre les éléments du menu */
     align-items: center;
+    border: none;
     height: auto; /* Ajuster la hauteur automatiquement */
+    width: 1122px; /* Largeur fixe */
+    margin: 0 auto; /* Centrer le bandeau horizontalement */
 }
 
 .second-menu .navbar-nav {
     display: flex;
-    justify-content: center; /* Centre les éléments du menu */
+    justify-content: space-between; /* Espacer les éléments du menu */
     align-items: center;
-    width: 100%;
+    width: 100%; /* Assurer que les éléments occupent toute la largeur disponible */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -283,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .second-menu .nav-item {
-    margin: 0 20px; /* Espacement uniforme entre les onglets */
+    margin: 0 10px; /* Espacement uniforme entre les onglets */
 }
 
 .second-menu .nav-link {
