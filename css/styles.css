@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Barre de navigation supérieure */
 .top-nav {
     background-color: #444; /* Couleur ajustée */
-    padding: 10px 20px;
+    padding: 5px 10px; /* Réduire la hauteur en ajustant le padding */
     display: flex;
     justify-content: space-between;
     align-items: center;
