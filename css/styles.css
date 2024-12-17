@@ -263,24 +263,24 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Styles pour le deuxième bandeau */
 .second-menu {
-    background-color: #333; /* Couleur ajustée */
+    background-color: #333;
     padding: 10px 20px;
     display: flex;
-    justify-content: center; /* Centrer les éléments du menu */
+    justify-content: center; /* Centre les éléments du menu */
     align-items: center;
-    border: none; /* Supprimer les bordures si nécessaire */
+    border: none;
     height: auto; /* Ajuster la hauteur automatiquement */
 }
 
 .second-menu .navbar-nav {
     display: flex;
-    justify-content: space-between; /* Espacer les éléments du menu */
+    justify-content: space-between; /* Espace les éléments du menu */
     align-items: center;
-    width: 100%; /* Ajuster la largeur automatiquement */
-    list-style: none; /* Enlever les puces de la liste */
+    width: 100%; /* Assurer que les éléments occupent toute la largeur disponible */
+    list-style: none;
     margin: 0;
     padding: 0;
-    flex-wrap: nowrap; /* Empêche les éléments de se replier sur plusieurs lignes */
+    flex-wrap: nowrap; /* Empêcher les éléments de se replier sur plusieurs lignes */
 }
 
 .second-menu .nav-item {
@@ -317,4 +317,3 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #007bff;
     color: #fff;
 }
-
