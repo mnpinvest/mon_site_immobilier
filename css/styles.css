@@ -261,40 +261,39 @@ h1, h2, h3, h4, h5, h6 {
     word-spacing: 0;
 }
 
-/* Styles pour le deuxième bandeau */
 .second-menu {
     background-color: #333;
     padding: 10px 20px;
     display: flex;
-    justify-content: center; /* Centre les éléments du menu */
+    justify-content: center;
     align-items: center;
-    border: none;
-    height: auto; /* Ajuster la hauteur automatiquement */
+    height: auto;
 }
 
 .second-menu .navbar-nav {
     display: flex;
-    justify-content: space-between; /* Espace les éléments du menu */
+    justify-content: space-between;
     align-items: center;
-    width: 100%; /* Assurer que les éléments occupent toute la largeur disponible */
+    width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
-    flex-wrap: nowrap; /* Empêcher les éléments de se replier sur plusieurs lignes */
+    flex-wrap: nowrap;
 }
 
 .second-menu .nav-item {
-    margin: 0 10px; /* Espacement uniforme entre les onglets */
+    position: relative;
+    margin: 0 10px;
 }
 
 .second-menu .nav-link {
-    color: #fff; /* Couleur blanche pour les onglets */
+    color: #fff;
     font-weight: bold;
     padding: 5px 10px;
-    font-size: 0.9em; /* Taille des caractères */
-    text-transform: uppercase; /* Texte en majuscules */
-    white-space: nowrap; /* Empêcher les retours à la ligne */
-    line-height: 1.5; /* Ajustement de la hauteur de ligne */
+    font-size: 0.9em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 1.5;
 }
 
 .second-menu .nav-link:hover {
@@ -303,9 +302,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .second-menu .dropdown-menu {
+    display: none;
+    position: absolute;
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.second-menu .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 .second-menu .dropdown-item {
@@ -317,3 +325,4 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #007bff;
     color: #fff;
 }
+
