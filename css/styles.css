@@ -46,11 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Alignement du menu principal */
-.main-menu {
+.navbar {
     background-color: #000; /* Couleur ajustée */
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
+    padding: 10px 20px;
     border-bottom: 2px solid #ddd;
 }
 
