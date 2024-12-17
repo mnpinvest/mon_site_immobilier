@@ -264,11 +264,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Styles pour le deuxième bandeau */
 .second-menu {
     background-color: #333; /* Couleur ajustée */
-    padding: 10px 20px;
+    padding: 5px 20px; /* Réduction de la hauteur */
     display: flex;
-    justify-content: center; /* Centrer les éléments du menu */
+    justify-content: space-between; /* Espacer les éléments du menu */
     align-items: center;
     border: none; /* Supprimer les bordures si nécessaire */
+    height: 50px; /* Réduction de la hauteur */
 }
 
 .second-menu .navbar-nav {
@@ -285,11 +286,12 @@ h1, h2, h3, h4, h5, h6 {
 .second-menu .nav-link {
     color: #fff; /* Couleur blanche pour les onglets */
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 5px 10px;
     position: relative;
-    font-size: 1em; /* Taille des caractères */
+    font-size: 0.9em; /* Taille des caractères */
     text-transform: uppercase; /* Texte en majuscules */
     white-space: nowrap; /* Empêcher les retours à la ligne */
+    line-height: 1.5; /* Ajustement de la hauteur de ligne */
 }
 
 .second-menu .nav-link:hover {
@@ -312,4 +314,3 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #007bff;
     color: #fff;
 }
-
