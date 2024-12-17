@@ -261,9 +261,6 @@ h1, h2, h3, h4, h5, h6 {
     word-spacing: 0;
 }
 
-/* Styles pour la section Espace Partenaires */
-.top-nav .mini-nav > ul:not(.mini-sub-nav) > li > a.partner
-
 /* Styles pour le deuxième bandeau */
 .second-menu {
     background-color: #333; /* Couleur ajustée */
