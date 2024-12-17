@@ -328,3 +328,19 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #007bff;
     color: #fff;
 }
+
+.nav.navbar.second-menu {
+    width: 1122px;
+    height: 308.78px;
+    background-color: #212529;
+    z-index: 1; /* Ajuste la valeur selon ton besoin */
+}
+
+ul.navbar-nav {
+    width: 1122px; /* Largeur définie */
+    height: 292.78px;
+    z-index: 2; /* Placer ce bandeau au-dessus du premier */
+    position: relative; /* S'assurer que la position est correcte */
+}
+
+  
