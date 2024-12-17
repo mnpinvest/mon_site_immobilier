@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de navigation supérieure -->
+    <div class="top-nav">
+        <a href="#partenaire">Devenez partenaire</a>
+        <a href="#contact">Contact</a>
+        <a href="#carriere">Carrières</a>
+        <a href="#recherche">Recherche</a>
+        <a href="#espace-partenaire">Espace partenaires</a>
+        <a href="#"><img src="logo-in.png" alt="Logo IN" class="logo-in"></a>
+    </div>
+    
+    <!-- Logo principal -->
+    <div class="main-logo">
+        <img src="logo.png" alt="Logo principal">
+    </div>
+
+    <!-- Menu de navigation principal -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGroupe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Groupe
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownGroupe">
+                        <a class="dropdown-item" href="#edito">Édito</a>
+                        <a class="dropdown-item" href="#historique">Historique</a>
+                        <a class="dropdown-item" href="#convictions">Convictions</a>
+                        <a class="dropdown-item" href="#equipe">L'équipe</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMetiers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Métiers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMetiers">
+                        <a class="dropdown-item" href="#presentation">Présentation</a>
+                        <a class="dropdown-item" href="#partenariats">Partenariats</a>
+                        <a class="dropdown-item" href="#fiscal">Environnement Fiscal</a>
+                        <a class="dropdown-item" href="#gestion">Gestion Locative</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#realisations">Réalisation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#disponibilites">Disponibilités</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEngagements" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Engagements
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownEngagements">
+                        <a class="dropdown-item" href="#engagements">Engagements</a>
+                        <a class="dropdown-item" href="#garanties">Garanties</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownActualites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Actualités
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownActualites">
+                        <a class="dropdown-item" href="#evenements">Événements</a>
+                        <a class="dropdown-item" href="#livraison">Livraison</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carrousel Bootstrap -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/photo1.jpg" alt="Première réalisation">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Projet Résidentiel Moderne</h5>
+                    <p>Une vue imprenable sur la ville.</p>
+                    <p class="slogan">Élever l'art de l'immobilier</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/photo2.jpg" alt="Deuxième réalisation">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Complexe Immobilier Innovant</h5>
+                    <p>Combinaison parfaite de design et de confort.</p>
+                    <p class="slogan">Élever l'art de l'immobilier</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/photo3.jpg" alt="Troisième réalisation">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Élégance Intemporelle</h5>
+                    <p>Réinterpréter le luxe à chaque projet.</p>
+                    <p class="slogan">Élever l'art de l'immobilier</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Précédent</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Suivant</span>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Ajoutez ici le contenu du pied de page -->
+    </footer>
+
+    <!-- Scripts Bootstrap et jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
