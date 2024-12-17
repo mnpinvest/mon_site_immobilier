@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .second-menu .navbar-nav {
     display: flex;
-    justify-content: center; /* Centre les éléments du menu */
+    justify-content: space-between; /* Espacer les éléments du menu */
     align-items: center;
     width: 100%; /* Ajuster la largeur automatiquement */
     list-style: none; /* Enlever les puces de la liste */
@@ -284,14 +284,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .second-menu .nav-item {
-    margin: 0 15px; /* Espacement uniforme entre les onglets */
+    margin: 0 10px; /* Espacement uniforme entre les onglets */
 }
 
 .second-menu .nav-link {
     color: #fff; /* Couleur blanche pour les onglets */
     font-weight: bold;
-    padding: 5px 15px;
-    position: relative;
+    padding: 5px 10px;
     font-size: 0.9em; /* Taille des caractères */
     text-transform: uppercase; /* Texte en majuscules */
     white-space: nowrap; /* Empêcher les retours à la ligne */
