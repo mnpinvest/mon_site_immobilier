@@ -264,29 +264,28 @@ h1, h2, h3, h4, h5, h6 {
 /* Styles pour le deuxième bandeau */
 .second-menu {
     background-color: #333; /* Couleur ajustée */
-    padding: 5px 20px; /* Réduction de la hauteur */
+    padding: 10px 20px;
     display: flex;
-    justify-content: space-between; /* Espacer les éléments du menu */
+    justify-content: space-around; /* Espacer les éléments du menu */
     align-items: center;
     border: none; /* Supprimer les bordures si nécessaire */
-    height: 50px; /* Réduction de la hauteur */
 }
 
 .second-menu .navbar-nav {
     display: flex;
-    justify-content: space-between; /* Espacer les éléments du menu */
+    justify-content: space-around; /* Espacer les éléments du menu */
     align-items: center;
     width: 100%; /* S'assurer que les éléments occupent toute la largeur disponible */
 }
 
 .second-menu .nav-item {
-    margin: 0 15px; /* Espacement uniforme entre les onglets */
+    margin: 0 10px; /* Espacement uniforme entre les onglets */
 }
 
 .second-menu .nav-link {
     color: #fff; /* Couleur blanche pour les onglets */
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 5px 15px;
     position: relative;
     font-size: 0.9em; /* Taille des caractères */
     text-transform: uppercase; /* Texte en majuscules */
