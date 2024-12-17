@@ -273,8 +273,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .second-menu .navbar-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Espacer les éléments du menu */
     align-items: center;
+    width: 100%; /* S'assurer que les éléments occupent toute la largeur disponible */
 }
 
 .second-menu .nav-item {
@@ -288,6 +289,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     font-size: 1em; /* Taille des caractères */
     text-transform: uppercase; /* Texte en majuscules */
+    white-space: nowrap; /* Empêcher les retours à la ligne */
 }
 
 .second-menu .nav-link:hover {
@@ -310,3 +312,4 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #007bff;
     color: #fff;
 }
+
