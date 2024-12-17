@@ -40,17 +40,11 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* Logo */
+/* Suppression du bloc du logo et ajustement du menu principal */
 .main-logo {
-    text-align: center;
-    margin: 20px 0;
+    display: none;
 }
 
-.main-logo img {
-    width: 200px;
-}
-
-/* Barre de navigation principale */
 .navbar {
     background-color: #000; /* Couleur ajustée */
     display: flex;
