@@ -1,4 +1,3 @@
-/* Styles généraux */
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f4;
@@ -52,11 +51,15 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-/* Alignement du menu principal */
+/* Menu principal aligné sous la barre de navigation supérieure */
 .navbar.main-menu {
-    background-color: #000; /* Couleur ajustée */
+    background-color: #444; /* Couleur ajustée pour correspondre à la maquette */
     padding: 10px 20px;
-    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: center; /* Centrer les éléments du menu */
+    align-items: center;
+    margin-top: -2px; /* Ajuster pour éliminer tout espace entre les barres */
+    border: none; /* Supprimer les bordures si nécessaire */
 }
 
 .navbar-nav {
@@ -97,3 +100,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow
+}
+
+/* Masquer tout texte indésirable */
+.menu-text {
+    display: none;
+}
